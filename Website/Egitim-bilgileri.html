@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Eğitim Bilgileri</title>
+  <link rel="stylesheet" href="style.css"> <!-- style.css kısmında yazdığım kodları kullanabilmek için bu kodu yazdım. -->
+</head>
+
+<body >
+  <div align="center" class="link-duzen"> <!-- Linkleri ortaladım,classı linklerin arkaplan rengi ve linklerin fontu için ekledim. -->
+    <a href="index.html">Ana Sayfa</a> &ensp; &ensp; <!-- href kullanarak link verdim,&ensp leri yazılar arasında boşluk olması için kullandım. -->
+    <a href="egitim-bilgileri.html">Eğitim Bilgileri</a> &ensp; &ensp; <!-- href kullanarak link verdim,&ensp leri yazılar arasında boşluk olması için kullandım. -->
+    <a href="Hobiler.html">Hobiler</a> &ensp; &ensp; <!-- href kullanarak link verdim,&ensp leri yazılar arasında boşluk olması için kullandım. -->
+  </div>
+  <br>
+  <div align="center"> <!-- Sayfayı ortaladım. -->
+    <table border="2"> <!-- Tabloya başlamak için table tagini kullandım ve tablo kenarlığı boyutunu ayarladım. -->
+      <caption> <!-- Tablonun başlığını oluşturmak için caption tagini kullandım. -->
+        <h1>Eğitim Bilgileri</h1>
+      </caption>
+      <tr> <!-- Satıra başlamak için tr tagini kullandım. -->
+        <td> <!-- Sütuna başlamak için td tagini kullandım. -->
+          <ol> <!-- Sıralı liste için ol tagini kullandım. -->
+            <li>Okul=<a href="https://www.nisantasi.edu.tr" target="_blank">Nişantaşı Üniversitesi</a></li> <!-- Linklerin yeni sekmede açılmasını sağladım. -->
+            <li>Fakülte=<a href="http://mmf.nisantasi.edu.tr" target="_blank">Mühendislik Mimarlık</a></li> 
+            <li>Bölüm=<a href="http://mmf.nisantasi.edu.tr/Bolumler/bilgisayar-muhendisligi.html" target="_blank">Bilgisayar Mühendisliği</a></li>
+          </ol>
+          <ul> <!-- Sırasız liste için ul tagini kullandım. -->
+            <li>Ad Soyad : Enes Paçacı </li>
+            <li>Öğrenci Numarası : 20172013011 </li>
+            <li>Sınıfı : 3.Sınıf </li>
+          </ul>
+        </td>
+      </tr>
+
+    </table>
+
+    <table border="1">
+      <br>
+      <tr>
+        <td> Dönem </td>
+        <td> Ders Kodu </td>
+        <td> Ders Adı </td>
+        <td> Kredisi </td>
+        <td> Başarı Notu </td>
+      </tr>
+      <tr>
+        <br>
+        <td rowspan=6> 2018-2019 Bahar</td> <!-- rowspan kullanarak 6 sütunu birleştirdim. -->
+        <td> EBLG202 </td>
+        <td> Ayrık Matematik </td>
+        <td rowspan=3> 3 </td> <!-- rowspan kullanarak 3 sütunu birleştirdim. -->
+        <td> 61 </td>
+      </tr>
+      <tr>
+        <td> EBLG204</td>
+        <td> Genel Kimya </td>
+        <td> 82 </td>
+      </tr>
+      <tr>
+        <td> EBLG206</td>
+        <td> Veri Yapıları ve Algoritmalar </td>
+        <td> 65 </td>
+      </tr>
+      <tr>
+        <td> EYDL202 </td>
+        <td> İngilizce Yazma Becerileri IV </td>
+        <td rowspan=3> 2 </td> <!-- rowspan kullanarak 3 sütunu birleştirdim. -->
+        <td> 84 </td>
+      </tr>
+      <tr>
+        <td> EYDL204 </td>
+        <td> İngilizce Okuma Anlama Becerileri IV </td>
+        <td> 95 </td>
+      </tr>
+      <tr>
+        <td> EYDL206 </td>
+        <td> İngilizce Dinleme Konuşma Becerileri II </td>
+        <td> 95 </td>
+      </tr>
+    </table>
+  </div>
+  <div align="center"> <!-- Eklediğim fotoğrafın ortalanmasını sağladım. -->
+    <img src="fotograf/Nish.jpg" style="width:200px;height:200px"> <!-- Fotoğraf ekleyip boyutunu ayarladım. -->
+  </div>
+</body>
+</html>

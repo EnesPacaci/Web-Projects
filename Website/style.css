@@ -1,0 +1,42 @@
+body {
+    background: url('fotograf/Background.png');
+    /*Arkaplana fotoğraf ekledim.*/
+    background-repeat: no-repeat;
+    /*Arkaplan fotoğrafının tekrar etmesini önledim.*/
+    background-size: cover;
+    /*Arkaplan fotoğrafı ekrana tam sığdırması için kullandım .*/
+}
+.Foto{ /* Kullanıcağım fotoğrafın büyüklüğünü,mesafesini,konumunu ayarlamadım. */
+width: 1000px;
+margin:auto;
+float:left;
+}
+.sola-kaydir{ /* Kullanıcağım fotoğrafı sola kaydırdım ve mesafe ayarladım. */
+float:left;
+padding:0 10px 10px 0;
+}
+
+.saga-kaydir{ /* Kullanıcağım fotoğrafı sağa kaydırdım ve mesafe ayarladım. */
+float:right;
+padding:0 0 10px 10px;
+}
+.solda-bosluk{ /* Kullanıcağım içeriğin soldan mesafesini ayarladım. */
+	margin-left:15%;
+}
+.solda-bosluk2{  /* Kullanıcağım içeriğin soldan mesafesini ayarladım. */
+	margin-left:34%;
+}
+.anasayfa-duzen{ /* Anasayfayı düzenlemek için soldan ve yukarıdan mesafe koydum. */
+	margin-left:220px;
+	margin-top:10px;
+}
+.hobiler-duzen{ /* Hobiler sayfasını düzenlemek için soldan mesafe koydum. */
+	margin-left:15%;
+}
+.link-duzen{ /* Link sayfasını düzenlemek için linklerin arkaplanına renk koydum ve linklerin yazı boyutunu ayarladım. */
+	background-color:lightgrey;
+	font-size:20px;
+	}
+.hobiler-background{ /* Hobiler sayfasının arka planına boyut ayarladım. */
+	background-size: 1920px 1453px;
+}
